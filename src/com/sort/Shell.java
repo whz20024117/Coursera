@@ -1,4 +1,4 @@
-package com.cocosan;
+package com.sort;
 
 public class Shell {
      public static void sort(Comparable[] a){

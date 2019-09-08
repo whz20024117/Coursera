@@ -1,4 +1,4 @@
-package com.cocosan;
+package com.sort;
 
 import java.util.Random;
 
