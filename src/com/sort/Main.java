@@ -8,7 +8,7 @@ public class Main {
         //Integer[] a = {1,5,2,3,4};
         Integer[] a = get_ints();
         long start = System.nanoTime();
-        BubbleSort.sort_sida(a);
+        Selection.sort(a);
         long finish = System.nanoTime();
         //for(int i: a) System.out.println(i);
         System.out.println("Time used: "+(finish-start)*1e-9);
