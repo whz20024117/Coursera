@@ -5,8 +5,8 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        Integer[] a = {1,5,2,3,4};
-        //Integer[] a = get_ints();
+        //Integer[] a = {1,5,2,3,4};
+        Integer[] a = get_ints();
         long start = System.nanoTime();
         BubbleSort.sort_sida(a);
         long finish = System.nanoTime();
@@ -17,7 +17,7 @@ public class Main {
 
     private static Integer[] get_ints(){
         Random rd = new Random(100);
-        Integer[] arr = new Integer[10];
+        Integer[] arr = new Integer[50000];
         for (int i = 0; i < arr.length; i++){
             arr[i] = rd.nextInt();
         }

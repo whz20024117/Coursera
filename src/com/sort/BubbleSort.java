@@ -16,15 +16,15 @@ public class BubbleSort {
         int k = 0;
         while (swap){
             swap = false;
-            for (int j = 0; j < N - k - 1; j++){
-                if (less(a[j+1], a[j])){
-                    exch(a, j+1, j);
+            for (int j = 0; j < N - k - 1; j++) {
+                if (less(a[j + 1], a[j])) {
+                    exch(a, j + 1, j);
                     swap = true;
                 }
+            }
              k++;
             }
         }
-    }
 
     private static boolean less(Comparable v, Comparable w){
         return v.compareTo(w) < 0;
