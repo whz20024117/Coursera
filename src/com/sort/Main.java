@@ -5,8 +5,8 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        //Integer[] a = {1,5,2,3,4};
-        Integer[] a = get_ints();
+        Integer[] a = {1,5,2,3,4};
+        //Integer[] a = get_ints();
         long start = System.nanoTime();
         MergeBottomUp.sort(a);
         long finish = System.nanoTime();
